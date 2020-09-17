@@ -21,13 +21,21 @@ export default class Stu extends React.Component {
 				 this.props.history.push("/Topic");
 			 }else if(e.target.innerHTML=="试香中心"){
 				 this.props.history.push("/Try");
-			 }else if(e.target.innerHTML=="专下载App题"){
+			 }else if(e.target.innerHTML=="下载App"){
 				 this.props.history.push("/Topic");
+			 }else if(e.target.innerHTML=="品牌"){
+				 this.props.history.push("/Brand");
+			 }else if(e.target.innerHTML=="香调"){
+				 this.props.history.push("/Fragrance");
+			 }else if(e.target.innerHTML=="气味"){
+				 this.props.history.push("/odor");
+			 }else if(e.target.innerHTML=="调香师"){
+				 this.props.history.push("/Perfumer");
 			 }
 	 }
 	render() {
 		return (
-			<div className="banner">
+			<div className="banner" onClick={this.nowPage.bind(this)}>
 			<div className="banner-1">
 				<div className="banner-11">
 					<div><span>品牌</span></div>
@@ -51,14 +59,14 @@ export default class Stu extends React.Component {
 				<div className="inputy"></div>
 			</div>
 			<div className="banner-3">
-				<div><span onClick={this.nowPage.bind(this)}>主页</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>排行榜</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>专题</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>新鲜事</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>社区</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>新手入门</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>试香中心</span></div>
-				<div><span onClick={this.nowPage.bind(this)}>下载App</span></div>
+				<div><span>主页</span></div>
+				<div><span>排行榜</span></div>
+				<div><span>专题</span></div>
+				<div><span>新鲜事</span></div>
+				<div><span>社区</span></div>
+				<div><span>新手入门</span></div>
+				<div><span>试香中心</span></div>
+				<div><span>下载App</span></div>
 			</div>
 			</div>
 		)
