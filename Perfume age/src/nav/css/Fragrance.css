@@ -1,8 +1,8 @@
 .f-nav{
-	width: 978px;
+	width: 1136px;
 	height: 34px;
 	position: relative;
-	left: 120px;
+	margin: 0 auto;
 	display: flex;
 }
 .f-nav div{
