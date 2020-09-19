@@ -27,7 +27,7 @@
 	margin: 0 auto;
 	margin-top: 20px;
 }
- h1{
+ .f-nav h1{
 	    font-size: 22px;
 	    color: #7C809F !important;
 	    padding: 24px 0 0px;
@@ -35,7 +35,7 @@
 	    font-weight: normal;
 		text-align: center;
 }
-p{
+.f-nav p{
 	line-height: 24px;
 	text-indent: 2em;
 	margin: 0 auto;

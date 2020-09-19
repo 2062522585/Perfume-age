@@ -1,0 +1,86 @@
+.Perfumer {
+	width: 1136px;
+	min-height: 560px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+.Perfumer-ac{
+	width: 1136px;
+	min-height: 22px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+.Perfumer-ac div{
+		cursor: pointer;
+		width: 340px;
+		height: 20px;
+}
+.Perfumer-ac div:hover{
+	color: #6e7099;
+}
+.Perfumer-1 {
+	width: 980px;
+	height: 313px;
+	margin: 10px auto;
+	position: relative;
+}
+
+.Perfumer-2 {
+	width: 980px;
+	margin: 10px auto;
+	position: relative;
+}
+
+.Perfumer-back {
+	width: 870px;
+	height: 420px;
+	position: absolute;
+	left: 100px;
+	background-image: url(../../img/p-back.jpg);
+}
+
+.Perfumer-2 h1 {
+	display: inline-block;
+	line-height: 30px;
+	font-size: 16px;
+	color: #6e7099;
+	padding-right: 13px;
+}
+
+.Perfumer-2 span {
+	padding: 0 5px;
+	cursor: pointer;
+}
+.Perfumer-a{
+	    display: block;
+	    font-size: 16px;
+	    color: #6e7099;
+	    clear: both;
+	    margin-top: 10px;
+		margin-bottom: 10px;
+}
+
+.Perfumer-1 h1 {
+	position: absolute;
+	left: 182px;
+	font-size: 22px;
+	color: #7C809F !important;
+	padding: 24px 0 0px;
+	list-style: none;
+	font-weight: normal;
+	text-align: center;
+}
+
+.Perfumer-1 p {
+	position: relative;
+	left: -272px;
+	top: 65px;
+	margin: 0 auto;
+	width: 430px;
+	text-indent: 2em;
+
+}

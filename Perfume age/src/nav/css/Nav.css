@@ -9,12 +9,12 @@
 	flex-wrap: wrap;
 }
 
-input {
+.banner input {
 	outline: none;
 	resize: none;
 }
 
-span {
+.banner span {
 	cursor: pointer;
 	color: #8788a3;
 	font-size: 15px;
