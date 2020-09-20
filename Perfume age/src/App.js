@@ -3,11 +3,16 @@ import React from "react";
 import "./App.css";
 import Home from "./home/Home.js";
 import Leaderboard from "./home/Leaderboard.js";
+import Fragrance from "./nav/Fragrance.js";
+import Odor from "./nav/Odor.js";
+import Perfumer from "./nav/Perfumer.js";
+import Brand from "./nav/Brand.js";
+import Nav from "./nav/Nav.js";
 import Topic from './nav/Topic.js';
 import NewThing from './community/NewThing.js';
 import Community from './community/Community.js';
 import Try from './try/Try.js';
-import Nav from "./nav/Nav.js";
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { createHashHistory } from "history";
 
@@ -31,6 +36,10 @@ export default class App extends React.Component {
 			<Route   path="/NewThing" component={NewThing} />
 			<Route   path="/Community" component={Community} />
 			<Route   path="/Try" component={Try} />
+			<Route   path="/Fragrance" component={Fragrance} />
+			<Route   path="/Odor" component={Odor} />
+			<Route   path="/Perfumer" component={Perfumer} />
+			<Route   path="/Brand" component={Brand} />
 			</Router>
     );
   }

@@ -4,16 +4,17 @@
 	background-image: url(../../img/header.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-input {
+.banner input {
 	outline: none;
 	resize: none;
 }
 
-span {
+.banner span {
 	cursor: pointer;
 	color: #8788a3;
 	font-size: 15px;
