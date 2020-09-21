@@ -24,7 +24,8 @@ export default class Shop extends Component{
 			 shopshow1:'none',
 			 arr2:[],
 			 zongjia:0,
-			 zongnum:0
+			 zongnum:0,
+			 userid:'zjf'
 			//  price:0	
 		 }	
 	}
@@ -56,6 +57,8 @@ export default class Shop extends Component{
 		this.setState({
 			isShow:'block',
 		})
+		document.getElementsByTagName("body")[0].style="overflow:hidden"
+		
 	
 	}
 	addnum(){
@@ -93,19 +96,19 @@ export default class Shop extends Component{
 			priceshow1:'none',
 		  })
 	 }
-	 sure(ss){
-		
+	 sure(){
 	     this.setState({
 			 isShow:'none'
 		 })
-
+		 document.getElementsByTagName("body")[0].style="overflow:scroll"
 		 //   console.log(this.state.data,this.state.price,this.state.yixuan)
 		 axios.post("http://127.0.0.1:7001/addgoods",{
 			img:this.state.data.img,
 			title:this.state.data.title,
 			price:this.state.price,
 			num:this.state.num,
-			yixuan:this.state.yixuan
+			yixuan:this.state.yixuan,
+			userid:this.state.userid
 		}).then(res=>{
 		
 		 console.log(res.data)
@@ -124,7 +127,9 @@ entershop(){
 }
 showshop(){
 	axios.post("http://127.0.0.1:7001/showgoods",{	
+		userid:this.state.userid
    }).then(res=>{
+	
 	   let zongjia=0;
 	   let zongnum=0;
 	   for(let i=0;i<res.data.length;i++){
@@ -268,7 +273,7 @@ this.props.history.push({pathname: `/Try`});
 			</div>
 	             <div style={{display:this.state.shopshow1}} className="goods-BOX">
 					     <div className="goods-box-top"><span  onClick={this.payformoney.bind(this)} className="fanhui"> &lt; </span ><span className="gouwuche1">购物车</span></div>
-                         <div className="sdswsdd">{this.entershopshow()} </div>
+						 <div className="sdswsdd">{this.entershopshow()} </div>
 						 
 						 <div className="goods-box-foot"  onClick={this.showModal}>结算</div>
 						 {/* onClick={this.payformoney.bind(this)} */}       

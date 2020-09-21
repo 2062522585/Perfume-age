@@ -108,11 +108,12 @@
 .shopfoot2-show{
     margin-left: -421px;
     /* border: 1px solid red; */
-    width: 1500px;;
-    height: 750px;
+    width: 1500px;
+    /* height: 100vh; */
+    height: 1090px;
     position: absolute;
     bottom: 0;
-    z-index: 99;
+    /* z-index: 99; */
 	background-color: rgba(0,0,0,0.5);
 }
 .shopfoot-3{
@@ -126,10 +127,11 @@
 }
 .shopfoot2-show .change{
 width: 44%;
-height: 500px;
+/* height: 700px; */
 border: 1px solid white;
 margin-left: 28%;
-margin-top: 250px;
+position: fixed;
+bottom: 0;
 background-color: white;
 }
 .change .show-img21{
@@ -223,8 +225,9 @@ color: black;
     margin-left: 20px;
     margin-top: 10px;
 }
+
 .goods-BOX{
-    height: 700px;
+    /* height: 1500px; */
     background-color:#F2F2F3;
 }
 .goods-box-top{
@@ -237,6 +240,7 @@ color: black;
      background-color: white;
      margin-bottom: 30px;
 }
+
 .fanhui{
     display: inline-block;
     margin-left: 0;
@@ -259,9 +263,9 @@ color: black;
     color: black;
 }
 .goods-box{
-     width: 44%;
+     width: 100%;
      
-     margin-left: 28%;
+     /* margin-left: 28%; */
      /* margin-top: 10px; */
      /* border: 1px solid white; */
      background-color:  white;
@@ -287,6 +291,7 @@ color: black;
     display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
+    position: relative;
     
 
 }
@@ -297,15 +302,21 @@ color: black;
 }
 .goods-box-div >.span2{
     display: inline-block;
-    margin-left: 320px;
+  
+    position: absolute;
+   left: 500px;
+    top: 0;
 }
 .goods-box-div >h1{
     color: red;
     font-size: 15px;
   
 }
-/* .sdswsdd{
-    overflow: scroll;
-    width: 651px;
+.sdswsdd{
+    overflow-y:auto;
+    height: 500px;
+    margin-bottom: 100px;
+    width: 44%;
     margin-left: 28%;
-} */
+    background-color: white;
+}

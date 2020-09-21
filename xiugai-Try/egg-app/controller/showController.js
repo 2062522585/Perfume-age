@@ -7,7 +7,8 @@ class showController extends Controller {
 		this.ctx.response.body = list;
 	}
 	async showgoods() {
-		let list = await this.ctx.service.showService.showgoods();
+		let userid=this.ctx.request.body.userid;
+		let list = await this.ctx.service.showService.showgoods(userid);
 		this.ctx.response.body = list;
 	}
 	async getshop() {
@@ -21,8 +22,8 @@ class showController extends Controller {
 		let title= this.ctx.request.body.title;
 		let num= this.ctx.request.body.num;
 		let chicun= this.ctx.request.body.yixuan;
-		console.log(price)
-		let list = await this.ctx.service.showService.addgoods(price,img,title,num,chicun);
+	    let userid=this.ctx.request.body.userid;
+		let list = await this.ctx.service.showService.addgoods(price,img,title,num,chicun,userid);
 		this.ctx.response.body = list;
 	}
 	async clearall() {
