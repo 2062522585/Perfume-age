@@ -1,0 +1,28 @@
+.addproduct{
+    padding-left: 40px;
+  }
+  
+  #newImg{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/header.jpg);
+    background-position: -860px -50px;
+  }
+  
+  .biaodan input{
+    margin-top: 15px;
+    margin-right: 25px;
+    width: 400px;
+    font-size: 18px;
+  }
+  
+  .biaodan button{
+    margin-top: 15px;
+    width: 400px;
+    font-size: 18px;
+    margin-left: 58px;
+    background-color: black;
+    color: white;
+    letter-spacing: 40px;
+  }
