@@ -1,0 +1,95 @@
+.box{
+    width: 70%;
+    /* height: 100px; */
+    margin-left: 15%;
+    color: #6E70B3;
+    font-size: 20px;
+}
+.box1-1{
+    display: inline-block;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* height: 200px; */
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid red; */
+}
+.box span{
+    display: inline-block;
+    margin-top: 10px;
+}
+ .title1{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.box2{
+    width: 70%;
+    /* height: 100px; */
+    margin-left: 15%;
+      color: #6E70B3;
+    font-size: 20px;
+ 
+}
+.box2-1{
+    height: 140px;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 20px;
+}
+.box2-1 .div{
+    display: inline-block;
+    width: 140px;
+    margin-top: 3px;
+    text-align: center;
+    height: 140px;
+    border: 1px solid #E9E9E9;
+    cursor: pointer;
+}
+.box2-1 .div2{
+    position: absolute;
+    top: 0;
+    left: 160px;
+    display: inline-block;
+    height: 140px;
+    width: 600px;
+
+}
+.box2-1 .span1{
+    display: inline-block;
+    font-size: 18px;
+
+}
+.box2-1 .pinfen{
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: default;
+}
+.box2-1 .span2{
+    color: black;
+    display: inline-block;
+    margin-top: 13px;
+    cursor: default;
+}
+.box2-1 .shop{
+    border: 1px solid #E9E9E9;
+    display: inline-block;
+    width: 150px;
+    margin-top: 15px;
+    text-align: center; 
+}
+.box3{
+    height: 200px;
+    border: 1px solid white;
+    color: #8788A3;
+    margin-top: 50px;
+    background-image: linear-gradient(to top,#A4BBDB,white);
+    width: 100%;
+    text-align: center;
+}
+.box3 .p1{
+   margin-top: 70px;
+}

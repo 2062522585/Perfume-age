@@ -1,0 +1,286 @@
+{
+  "keys": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+  "multipart": {
+    "mode": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+    "fileExtensions": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+    "autoFields": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "files": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "ignoreJSON": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "type": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "useSession": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "headerName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "queryName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "cluster": {
+    "listen": {
+      "port": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "hostname": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "path": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+    "allowMethods": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "port": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "user": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "password": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js",
+      "database": "D:\\H20030502\\react\\code\\day01\\egg_Service\\config\\config.default.js"
+    },
+    "default": {
+      "database": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    },
+    "app": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+    "agent": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
+    "key": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-schedule@3.6.5@egg-schedule\\config\\config.default.js",
+      "file": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-schedule@3.6.5@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-schedule@3.6.5@egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-development@2.7.0@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "mapping": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "name": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "cookies": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "proxy": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "version": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "main": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "license": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "scripts": {
+      "test": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "dev": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    },
+    "author": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "description": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "egg-cors": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "egg-mysql": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "HOME": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "rundir": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "notFound": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "sitefile": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "middlewares": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "httpClient": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "encoding": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "formLimit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "textLimit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "strict": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "depth": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "encoding": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "env": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "level": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "outputJSON": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "buffer": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "appLogName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "coreLogName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "agentLogName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "errorLogName": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "logging": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\H20030502\\react\\code\\day01\\egg_Service\\node_modules\\_egg@2.28.0@egg\\config\\config.default.js"
+}

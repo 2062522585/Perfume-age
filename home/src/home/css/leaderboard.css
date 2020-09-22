@@ -1,0 +1,49 @@
+.leaderbox{
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.midleline{
+    width: 0;
+    height: 700px;
+    border: 0.2px solid #ccc;
+    margin-top: 70px;
+}
+.leaderleft,.leaderright{
+    width: 44%;
+    font-size: 13px;
+}
+.leaderleft span,.leaderright span{
+    color: #636363;
+    font-size: 13px;
+}
+.topspan{
+    color: #6e7099;
+    font-size: 22px;
+    margin: 20px 0;
+    margin-left: 32%;
+}
+.leaderbox li{
+    height: 120px;
+    border-bottom: 1px dashed #dedede;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.leaderleft img,.leaderright img{
+    width: 52px;
+    height: 78px;
+    margin: 0 30px;
+}
+.number{
+    font-size: 30px;
+    color: #d7cfd9;
+}
+.tiaozhuan{
+    color: #6c6c6c;
+    margin: 30px 0;
+    margin-left: 28%;
+}
+
