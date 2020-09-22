@@ -12,6 +12,9 @@ import Topic from './nav/Topic.js';
 import NewThing from './community/NewThing.js';
 import Community from './community/Community.js';
 import Try from './try/Try.js';
+import Show from './try/Show.js';
+import Shop from './try/Shop.js';
+import Search from './nav/search.js';
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { createHashHistory } from "history";
@@ -40,6 +43,9 @@ export default class App extends React.Component {
 			<Route   path="/Odor" component={Odor} />
 			<Route   path="/Perfumer" component={Perfumer} />
 			<Route   path="/Brand" component={Brand} />
+			<Route   path="/Search" component={Search} />
+			<Route   path="/Shop" component={Shop} />
+			<Route   path="/Show" component={Shop} />
 			</Router>
     );
   }

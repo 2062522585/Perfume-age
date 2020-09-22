@@ -1,3 +1,102 @@
-.Topic{
-	height: 1000px;
+.topic-big {
+	width: 1136px;
+	min-height: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.topic-big img{
+	cursor: pointer;
+}
+.topic-content-l {
+	width: 640px;
+	height: 804px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.topic-l-content {
+	width: 640px;
+	height: 144px;
+	clear: both;
+	border-bottom: 1px dashed #eee;
+	line-height: 20px;
+	padding-bottom: 20px;
+	margin: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topic-content-r {
+	width: 310px;
+	height: 461px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topic-l-l {
+	width: 175px;
+	height: 123px;
+	text-align: center;
+	line-height: 123px;
+	border: 1px solid #e9e9e9;
+}
+
+.topic-l-l img {
+	width: 167px;
+	height: 97px;
+}
+
+.topic-l-f {
+	width: 450px;
+	margin-left: 10px;
+	height: 144px;
+	line-height: 25px;
+	text-indent: 28px;
+}
+
+.topic-l-f h3 {
+	cursor: pointer;
+	color: #6e7099;
+	font-size: 16px;
+	text-indent: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.topic-l-f p {
+	width: 450px;
+	height: 95px;
+	overflow: hidden;
+}
+
+.topic-content-r-title {
+	cursor: pointer;
+	font-size: 18px;
+	color: #6e7099;
+	width: 310px;
+	height: 24px;
+	margin: 8px;
+}
+
+.topic-content-r-c {
+	cursor: pointer;
+	width: 310px;
+	height: 89px;
+	display: flex;
+}
+
+.topic-content-r-c>div {
+	cursor: pointer;
+	position: relative;
+	left: 10px;
+	top: -20px;
+	font-size: 16px;
+	color: #6e7099;
+	width: 64px;
+	margin-right: 29px;
+	height: 89px;
 }

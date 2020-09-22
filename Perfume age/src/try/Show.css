@@ -1,0 +1,98 @@
+.Box1{
+    /* width: 800px; */
+    height: 500px;
+    margin-left: 20%;
+    margin-top: 30px;
+
+}
+.Box1>img{
+    width: 180px;
+    height: 250px;
+    margin-left: 50px;
+}
+.Box1>.p1{
+    font-size: 25px;
+    color: #8570A6;
+}
+.Box1>.div1{
+    display: inline-block;
+    /* width: 300px; */
+    margin-left: 80px;
+    vertical-align:top;
+
+}
+.Box1>.div2{
+    margin-top: 20px;
+
+}
+.Box1>.div1 p{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.Box1>.div2 .span{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    border: 1px solid #9396CC;
+}
+.Box1>.div2 .span1{
+   
+    margin-left: 10px;
+    
+}
+.Box1>.div3 {
+    display: inline-block;
+    margin-left: 80px;
+    vertical-align:top;
+}
+.Box1>.div3>.span6{
+    margin-left: 15px;
+}
+.Box1>.div3>p{
+    /* display: inline-block; */
+   display: flex;
+    /* width: 100px; */
+    margin: 0;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    /* border: 1px solid red; */
+    /* background-color: #F5E5C4; */
+}
+
+.Box1>.div3>p>span{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    margin-left: 20px;
+  margin-top: 5px;
+    /* border: 1px solid red; */
+    background-color: #F5E5C4;
+}
+
+.Box1>.div3>p>.span1{
+    width: 100px;
+}
+.Box1>.div3>p>.span2{
+    width: 80px;
+}
+.Box1>.div3>p>.span3{
+    width: 60px;
+}
+.Box1>.div3>p>.span4{
+    width: 40px;
+}
+.Box1>.div3>p>.span5{
+    width: 20px;
+}
+
+ .pinfen{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-left: 20px;
+    cursor: default;
+}

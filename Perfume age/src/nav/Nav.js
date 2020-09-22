@@ -7,6 +7,7 @@ export default class Stu extends React.Component {
 		super();
 	}
 	 nowPage(e){
+		 // console.log(e.target.className);
 		 if(e.target.innerHTML=="主页"){
 				this.props.history.push("/");
 			 }else if(e.target.innerHTML=="排行榜"){
@@ -31,6 +32,8 @@ export default class Stu extends React.Component {
 				 this.props.history.push("/odor");
 			 }else if(e.target.innerHTML=="调香师"){
 				 this.props.history.push("/Perfumer");
+			 }else if(e.target.className=="inputy"){
+				 this.props.history.push("/Search");
 			 }
 	 }
 	render() {
